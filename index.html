@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in-form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <form class="form-group" action="https://formspree.io/f/mvoepjkk" method="POST">
+        <h2>Please sign in</h2>
+        <div class="info-inputs">
+          <input type="email" name="name" placeholder="Email address" required />
+          <input type="password" minlength="8" name="password" placeholder="Password" required />
+        </div>
+        <div class="checkbox-input">
+          <input type="checkbox" name="name" id="member" required />
+          <label for="member">Remember me</label>
+        </div>
+        <button type="submit">Sign in</button>
+        <p>Copyright &copy; 2023</p>
+      </form>
+    </section>
+  </body>
+</html>
